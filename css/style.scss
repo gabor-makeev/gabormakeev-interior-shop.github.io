@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+.floatLeft {
+    float: left;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.site-background {
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+@import "blocks/slider";
+
+@import "blocks/contacts-page";
+
+@import "blocks/prod-page";
+
+@import "blocks/catalog-page";
+
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+    transition: 0.3s;
+}
+
+.button img {
+    transition: 0.3s;
+}
+
+.button:hover img {
+    opacity: 0;
+}
+
+.button:hover {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.2);
+}
+
+.button:active {
+    box-shadow: none;
+}
+
+@import "blocks/featured-products";
+
+.explore-all-link {
+    text-decoration: none;
+    float: right;
+    margin-top: 138px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.explore-all-link:hover {
+    color: black;
+}
+
+.explore-all-svg {
+    margin-left: 12px;
+    width: 8px;
+    height: 12px;
+}
+
+@import "blocks/exclusive-products";
+
+.trending-h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 119px;
+    float: left;
+}
+
+.trending-products {
+    position: relative;
+    height: 1108px;
+}
+
+.trending-catalogue {
+    display: block;
+    width: 1200px;
+    height: 770px;
+    clear: both;
+    list-style-type: none;
+    float: left;
+    margin-top: 64px;
+}
+
+.trending-product {
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    width: 370px;
+    height: 370px;
+}
+
+.trending-product img {
+    transition: 0.3s;
+}
+
+.trending-product img:hover {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+}
+
+.hot-deal {
+    position: relative;
+    height: 800px;
+    background-image: url(../img/hotdealslider.jpg);
+}
+
+.hot-deal-text {
+    float: left;
+    width: 458px;
+    margin: 287px 810px 286px 99px;
+}
+
+.hot-deal-trending {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.hot-deal-h2 {
+    margin-top: 10px;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.hot-deal-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+
+.pagination-hot-deal {
+    padding-left: 98px;
+}
+
+.exclusive-features {
+    height: 570px;
+    width: 1200px;
+}
+
+.main-exclusive-feature {
+    float: left;
+    display: block;
+    width: 570px;
+    height: 570px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding-right: 15px;
+    background-image: url(../img/exclusive-features/product-1-lg.jpg);
+}
+
+.exclusive-features-menu {
+    list-style-type: none;
+    width: 615px;
+    height: 600px;
+    float: left;
+    padding-top: 105px;
+    padding-bottom: 75px;
+}
+
+.exclusive-features-list {
+    float: left;
+    padding: 15px;
+}
+
+.exclusive-features-list img {
+    transition: 0.3s;
+}
+
+.exclusive-features-list img:hover {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+}
+
+.app-access {
+    clear: both;
+    height: 516px;
+    background-image: url(../img/mapp-background.jpg);
+}
+
+.mapp-textbox {
+    padding-top: 125px;
+    padding-bottom: 120px;
+    padding-right: 853px;
+    width: 500px;
+}
+
+.mapp-title {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.mapp-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+
+.mapp-motto {
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 16px;
+    margin-bottom: 23px;
+}
+
+.mapp-links {
+    list-style-type: none;
+}
+
+.mapp-links > li {
+    float: left;
+    margin-right: 10px;
+}
+
+@import "blocks/footer";
